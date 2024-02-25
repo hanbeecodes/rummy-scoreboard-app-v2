@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <!--<h1>Rummy Score Counter</h1>-->
+                <h3>SALLY</h3>
+                <!--Create a black box for the score to go in-->
+                <div class="scoreboard" id="player1-score">0</div>
+                <!--Underneath the black box create 3 buttons in a row-->
+                <div class="btn-board">
+                    <button class="btn" onclick="player1Plus1()">+1</button>
+                    <button class="btn" onclick="player1Plus2()">+10</button>
+                    <button class="btn" onclick="player1Plus3()">+50</button>
+                </div>
+            </div>
+            <div>
+                <h3>ANDY</h3>
+                <!--Create a black box for the score to go in-->
+                <div class="scoreboard" id="player2-score">0</div>
+                <!--Underneath the black box create 3 buttons in a row-->
+                 <div class="btn-board">
+                    <button class="btn" onclick="player2Plus1()">+1</button>
+                    <button class="btn" onclick="player2Plus2()">+10</button>
+                    <button class="btn" onclick="player2Plus3()">+50</button>
+                </div>
+            </div>
+            <div>
+                <h3>HANNAH</h3>
+                <!--Create a black box for the score to go in-->
+                <div class="scoreboard" id="player3-score">0</div>
+                <!--Underneath the black box create 3 buttons in a row-->
+                 <div class="btn-board">
+                    <button class="btn" onclick="player3Plus1()">+1</button>
+                    <button class="btn" onclick="player3Plus2()">+10</button>
+                    <button class="btn" onclick="player3Plus3()">+50</button>
+                </div>
+            </div>
+        </div>
+        <button id="new-game-btn" onclick="reset()">New Game</button>
+        <!--<div>Scores per Game:</div>-->
+        <script src="index.js"></script>
+    </body>
+</html> 
